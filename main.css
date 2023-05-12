@@ -1,0 +1,119 @@
+﻿header button {
+  background-color: DimGrey;
+  border: none;
+  color: LightGray;
+  cursor: pointer;
+  font-size: 16px;
+  position: center;
+  margin-left: 10px;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: Gainsboro;
+}
+
+header button.active {
+  color: GreenYellow;;
+}
+
+.header-main{
+	display: flex;
+	justify-content: flex-end;
+	background-color: DimGrey;
+	padding: 10px;
+}
+
+header {
+  background-color: DimGrey;
+  padding: 10px;
+}
+
+.container {
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+footer {
+  background-color: DimGrey;
+  padding: 20px;
+  text-align: center;
+  position: bottom;
+}
+
+.footer-main {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+footer p {
+  margin-bottom: 10px;
+}
+
+.h1-style h1{
+	font-size: 24px;
+	font-weight: bold;
+	margin-bottom: 15px;
+	text-align: center;
+	color: MediumSlateBlue;
+	text-decoration: underline;
+}
+
+.h1-style{
+  background-color: Silver;
+  max-width: 700px;
+  margin: 20px auto;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  color: #333;
+}
+
+.main-text p{
+	font-size: 20px;
+	color: MediumSlateBlue;
+	margin:center;
+	margin-bottom: 15px;
+	line-height: 1.5;
+}
+
+.main-text{
+  background-color: Ivory ;
+  max-width: 700px;
+  margin: 20px auto;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  color: #333;
+}
+
+.author{
+	font-size: 18px;
+	text-decoration: overline;
+}
+
+.Link-text a{
+	color: Lime;
+	text-decoration: underline;
+}
+
+.Link-text{
+  font-size: 20px;
+  font-weight: bold;
+  color: transparent;
+  text-shadow: 0 0 5px Blue, 0 0 10px Blue, 0 0 20px Blue, 0 0 30px Blue, 0 0 40px Blue, 0 0 50px Blue, 0 0 60px Blue;
+  animation: neon-animation 1.5s ease-in-out infinite;
+}
+
+@keyframes neon-animation {
+  0% {
+    text-shadow: 0 0 5px Blue, 0 0 10px Blue, 0 0 20px Blue, 0 0 30px Blue, 0 0 40px Blue, 0 0 50px Blue, 0 0 60px Blue;
+  }
+  50% {
+    text-shadow: 0 0 5px Gold, 0 0 10px Gold, 0 0 20px Gold, 0 0 30px Gold, 0 0 40px Gold, 0 0 50px Gold, 0 0 60px Gold;
+  }
+  100% {
+    text-shadow: 0 0 5px Blue, 0 0 10px Blue, 0 0 20px Blue, 0 0 30px Blue, 0 0 40px Blue, 0 0 50px Blue, 0 0 60px Blue;
+  }
+}
+}

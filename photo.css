@@ -1,0 +1,55 @@
+﻿.slideshow-photo {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  background-color: MidnightBlue ;
+}
+
+.slideshow-photo img {
+  width: 200px; 
+  height: 100px;
+  object-fit: cover;
+  margin: 10px; 
+}
+
+.slideshow-photo-2 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  background-color: ForestGreen ;
+}
+
+.slideshow-photo-2 img {
+  width: 200px; 
+  height: 100px;
+  object-fit: cover;
+  margin: 10px; 
+}
+
+.slideshow-photo-3 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  background-color: Thistle ;
+}
+
+.slideshow-photo-3 img {
+  width: 200px; 
+  height: 100px;
+  object-fit: cover;
+  margin: 10px; 
+}
+
+.slideshow-photo-4 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  background-color: Gold ;
+}
+
+.slideshow-photo-4 img {
+  width: 200px; 
+  height: 100px;
+  object-fit: cover;
+  margin: 10px; 
+}
